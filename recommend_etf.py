@@ -11,7 +11,7 @@ load_dotenv()
 
 # 환경 변수에서 API 키 가져오기
 openai.api_key = os.getenv('OPENAI_API_KEY')
-
+ 
 
 # GPT API로 점수 계산 요청
 def calculate_investor_profile_gpt(responses):
